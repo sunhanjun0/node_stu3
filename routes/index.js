@@ -8,9 +8,10 @@ router.get('/', function(req, res, next) {
     res.render('Login', { title: '用户登陆' });
 });
 
+
 router.post('/',function (req,res,next) {
-  res.write('收到POST请求')；
+  res.write('收到POST请求');
   res.write(req)
-})
+});
 
 module.exports = router;
