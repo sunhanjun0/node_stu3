@@ -10,8 +10,7 @@ router.get('/', function(req, res, next) {
 
 
 router.post('/',function (req,res,next) {
-  res.write('收到POST请求');
-  res.write(req)
+    console.log(req.body);
 });
 
 module.exports = router;

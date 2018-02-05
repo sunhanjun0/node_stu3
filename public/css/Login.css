@@ -1,0 +1,64 @@
+canvas {
+    z-index: -1;
+    position: absolute;
+    background-image: -webkit-radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
+    background-image: radial-gradient(ellipse farthest-corner at center top, #000d4d 0%, #000105 100%);
+}
+
+bgcanv {
+    display: inline-block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    cursor: move;
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.2);
+    width: 400px;
+    margin: auto;
+}
+
+.bottom{
+    margin-top: 100px;
+}
+#login_form {
+    display: block;
+}
+
+#register_form {
+    display: none;
+}
+
+.fa {
+    display: inline-block;
+    top: 27px;
+    left: 6px;
+    position: relative;
+    color: #ccc;
+    border-right-width: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    padding-left: 30px;
+}
+
+input[name="email"] {
+    padding-left: 35px;
+}
+
+.checkbox {
+    padding-left: 21px;
+    color:rgba(255,255,255,0.5);
+}
+
+.error{
+    padding-top: 5px;
+    color: rgba(200, 0, 0, 0.5);
+}
+
+.form-title {
+    color:rgba(255,255,255,0.8);
+}
